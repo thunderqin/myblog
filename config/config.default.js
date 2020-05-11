@@ -6,7 +6,8 @@ module.exports = appInfo => {
     mongoose: {
       clients: {
         blog: {
-          url: 'mongodb://127.0.0.1/blogtest',
+          url: 'mongodb://106.53.108.7/blog',
+          // url: 'mongodb://mongouser:devcloud@123@9.134.40.120:27017/blogtest',
           options: {
             // user: 'test', // 数据库账号
             // pass: 'test'  // 数据库密码

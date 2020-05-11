@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <div class="logo">
-      <img src="../../../static/logo3.png" alt="">
+      覃国雷的博客
     </div>
     <Menu class="nav" mode="horizontal" theme="light" active-name="1">
         <MenuItem name="1">
@@ -10,7 +10,7 @@
             全部文章
           </router-link>
         </MenuItem>
-        <MenuItem name="2">
+        <!-- <MenuItem name="2">
             <a href="http://www.wadejs.cn/">
               <Icon type="md-navigate" />
               煌哥哥导航站
@@ -27,7 +27,7 @@
             <Icon type="ios-construct" />
             为所欲为gif生成
           </a>
-        </MenuItem>
+        </MenuItem> -->
     </Menu>
     <Dropdown trigger="click" class="menu">
       <a href="javascript:void(0)">
@@ -86,6 +86,9 @@ export default {
   height 60px
   text-align center
   background #fff
+  line-height: 60px
+  font-weight: 800
+  font-size: 22px
   img
     width 100%
     height 60px

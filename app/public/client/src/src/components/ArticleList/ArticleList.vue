@@ -114,7 +114,7 @@ export default {
   font-weight normal
   color #999
 .article
-  min-height: 0
+  max-height: 250px
 .page
   text-align center
   font-size 14px

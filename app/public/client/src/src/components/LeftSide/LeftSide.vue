@@ -1,28 +1,29 @@
 <template>
   <div>
     <router-link to="/">
-      <Avatar class="avatar" :src="`${$assetsPublicPath}static/qqq.jpg`" />
+      <Avatar class="avatar" src="https://guolei-1256394822.cos.ap-guangzhou.myqcloud.com/WechatIMG354.jpeg" />
     </router-link>
-    <p class="desc">药药切克闹</p>
+    <p class="desc">覃国雷</p>
     <Input @on-search="search" v-model="keyword" class="search-input" search enter-button placeholder="根据标题或内容搜索" />
     <router-link class="category" to="/TagCloud">分页/标签</router-link>
     <div class="icon-group">
       <Tooltip content="github" placement="top">
-        <a href="https://github.com/wadejs"><i class="iconfont">&#xe7ab;</i></a>
+        <a href="https://github.com/thunderqin"><i class="iconfont">&#xe7ab;</i></a>
       </Tooltip>
-      <Tooltip content="码云" placement="top">
+      <!-- <Tooltip content="码云" placement="top">
         <a href="https://gitee.com/wadejs"><i class="iconfont">&#xe600;</i></a>
-      </Tooltip>
+      </Tooltip> -->
       <Tooltip content="知乎" placement="top">
-        <a href="https://www.zhihu.com/people/huang-ge-ge-65/activities"><i class="iconfont">&#xe69a;</i></a>
+        <a href="https://www.zhihu.com/people/tan-guo-lei-29"><i class="iconfont">&#xe69a;</i></a>
       </Tooltip>
-      <Tooltip content="QQ" placement="top">
-        <a href="tencent://message/?uin=379664673&Site=&Menu=yes"><i class="iconfont">&#xe657;</i></a>
+      <Tooltip content="微博" placement="top">
+        <a href="https://weibo.com/u/2639717134/home?wvr=5"><i class="iconfont">&#xe657;</i></a>
       </Tooltip>
     </div>
     <footer>
-      <p>Theme by wadejs</p>
-      <p>备案号：闽ICP备123321122号</p>
+      <p>腾讯搬砖工一枚</p>
+      <p>联系方式: 549458812@qq.com</p>
+      <!-- <p>备案号：闽ICP备123321122号</p> -->
     </footer>
   </div>
 </template>
